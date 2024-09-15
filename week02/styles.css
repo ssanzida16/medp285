@@ -1,0 +1,49 @@
+/*this is a tag selector*/
+body {
+	background-color: #333333;
+	font-family: Barlow;
+	font-size: 20px;
+	font-weight: 400;
+	color: #008080;
+}
+
+/*this is a descendant selector*/
+
+header h1 {
+	font-family: Times New Roman;
+}
+
+nav {
+	background-color: black;
+    	padding: 20px;
+    	text-align: center;
+    	font-size:20px;
+    	font-weight: 900;
+	
+}
+  nav a {
+    	margin: 0px 10px 0px 10px;
+    	color: #FFF;
+    	text-decoration: none;
+    }
+
+}
+
+
+
+main img.installation {
+	width: 300px;
+}
+main  a {
+	color: red;
+	text-decoration: none;
+}
+
+main a:hover {
+	color: #000;
+}
+
+
+footer h1 {
+	font-size: 12px;
+}
