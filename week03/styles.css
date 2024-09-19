@@ -1,0 +1,50 @@
+body {
+  font-family: "Handjet", system-ui;
+  font-optical-sizing: auto;
+  font-weight: <500>;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+
+
+    background-image: url("images/fashion.jpg");
+   }
+
+    #wrapper {
+    	background-color: #808080;
+    	width: 60%;
+    	padding: 40px;
+    	margin: 100px auto 100px auto;
+    }
+  
+
+
+    nav {
+    	background-color: #FFF;
+    	padding: 20px;
+    	text-align: center;
+    	font-size:20px;
+    	font-weight: 900;
+    }
+
+    nav a {
+    	margin: 0px 10px 0px 10px;
+    	color: #000;
+    	text-decoration: none;
+    }
+
+    nav a:hover {
+    	color: #808080;
+    }
+
+
+    img.enlargement{
+    	height: 400px;
+    	width: auto;
+    }
+
+    img.thumbnail {
+    	height: 80px;
+    	width: auto;
+    }
