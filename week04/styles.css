@@ -1,0 +1,77 @@
+body {
+  .lxgw-wenkai-mono-tc-regular 
+	font-family: "LXGW WenKai Mono TC", monospace;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+  font-variation-settings:
+    "ELGR" 1,
+    "ELSH" 2;
+
+
+
+
+
+background-image: url("images/background.WebP");
+}
+
+/*GROUPING EXAMPLES FOR BULK EDITING*/
+header, nav, main, footer{
+	padding: 20px;
+}
+
+h1, h2, h3, h4, h5{
+	margin:0px;
+}
+
+#wrapper{
+	background-color: #DCD6F7;
+	width: 60%;
+	margin: 0px auto;
+	border:solid 2px #000;
+	padding:0px;
+}
+
+nav {
+	background-color: #4E4C67;
+	padding: 22px;
+	text-align:center;
+	font-weight: 800;
+}
+
+/*changes color for the links*/
+nav a{
+	color: #FFF;
+	text-decoration: none;
+
+	/*create space between links*/
+	margin: 0px 20px;
+
+	background-color: #A6B1E1;
+	padding: 10px;
+	border:solid 4px #000;
+
+}
+
+/*has to do with hover in the nav*/
+
+nav a:hover {
+	background-color: #DCD6F7;
+	 border-width:6px;
+}
+
+main {
+	padding: 22px;
+}
+article.intro img.introThumb {
+border: soilid 10px #000;
+background-color: #666;
+padding: 5px;
+margin: 30px;
+box-shadow: 4px 4px 2px 0 rgba(0, 0, 0, 0.5);
+filter: grayscale(100%);
+}
+
+article.intro img.introThumb: hover{
+	background-color: #DCD6F7;
+}
