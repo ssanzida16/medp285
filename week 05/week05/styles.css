@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF0F5; /* Lavender Blush background */
+    color: #333;
+}
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #DDA0DD; /* Medium purple header */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+article {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff; /* White background for articles */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #DDA0DD; /* Medium purple footer */
+    color: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #DDA0DD; /* Medium purple borders */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #DDA0DD; /* Medium purple borders for inputs */
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #DDA0DD; /* Medium purple button */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #BA55D3; /* Darker purple on hover */
+}
+
+img {
+    max-width: 100%; /* Responsive images */
+    height: auto;
+}
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #DDA0DD; /* Purple borders for inputs */
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #DDA0DD; /* Purple borders for inputs */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #BA55D3; /* Darker purple on hover */
+}
+
+img {
+    max-width: 100%; /* Responsive images */
+    height: auto;
+}
