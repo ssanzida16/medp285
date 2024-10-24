@@ -1,0 +1,106 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff; /* White container for content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.nav-buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+.pattern {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+/* Pattern 1 - Circles */
+.pattern1 {
+    background: radial-gradient(circle at 30px 30px, #ff5722, transparent 30%), 
+                radial-gradient(circle at 90px 90px, #4caf50, transparent 30%),
+                radial-gradient(circle at 150px 150px, #2196f3, transparent 30%);
+    background-size: 100px 100px;
+}
+
+/* Pattern 2 - Smaller Circles */
+.pattern2 {
+    background: radial-gradient(circle at 15px 15px, #e91e63, transparent 15%), 
+                radial-gradient(circle at 45px 45px, #00bcd4, transparent 15%),
+                radial-gradient(circle at 75px 75px, #9c27b0, transparent 15%);
+    background-size: 50px 50px;
+    border-radius: 50%;
+}
+
+/* Pattern 3 - Triangles */
+.pattern3 {
+    background: linear-gradient(135deg, #ff9800 25%, transparent 25%) -50px 0,
+                linear-gradient(225deg, #ff9800 25%, transparent 25%) -50px 0,
+                linear-gradient(45deg, #00bcd4 25%, transparent 25%),
+                linear-gradient(315deg, #00bcd4 25%, transparent 25%);
+    background-size: 100px 100px;
+}
+
+/* Pattern 4 - Smaller Triangles */
+.pattern4 {
+    background: linear-gradient(135deg, #8bc34a 12.5%, transparent 12.5%) -25px 0,
+                linear-gradient(225deg, #8bc34a 12.5%, transparent 12.5%) -25px 0,
+                linear-gradient(45deg, #f44336 12.5%, transparent 12.5%),
+                linear-gradient(315deg, #f44336 12.5%, transparent 12.5%);
+    background-size: 50px 50px;
+}
+
+/* Pattern 5 - Squares */
+.pattern5 {
+    background-color: #ffc107;
+    background-image: 
+        linear-gradient(45deg, #8bc34a 25%, transparent 25%), 
+        linear-gradient(-45deg, #8bc34a 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #8bc34a 75%),
+        linear-gradient(-45deg, transparent 75%, #8bc34a 75%);
+    background-size: 50px 50px;
+}
+
+/* Pattern 6 - Smaller Squares */
+.pattern6 {
+    background-color: #673ab7;
+    background-image: 
+        linear-gradient(45deg, #03a9f4 12.5%, transparent 12.5%), 
+        linear-gradient(-45deg, #03a9f4 12.5%, transparent 12.5%),
+        linear-gradient(45deg, transparent 37.5%, #03a9f4 37.5%),
+        linear-gradient(-45deg, transparent 37.5%, #03a9f4 37.5%);
+    background-size: 25px 25px;
+}
+
+
+
