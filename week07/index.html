@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fragmented Spaces</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fragmented Spaces</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About the Project</h2>
+            <p>“Fragmented Spaces” is an exploration of digital landscapes—fragments of meaning, form, and interaction woven into a web of possibilities. Each click, each hover reveals hidden layers beneath the surface, a metaphor for the intricacies of the virtual world.</p>
+        </section>
+
+        <section id="explore">
+            <h2>Explore</h2>
+            <p>Hover over the cosmic elements to reveal their inner worlds.</p>
+            <div class="flex-container">
+                <div class="flex-item" style="background-color:#8A2BE2">Stellar Nebula</div>
+                <div class="flex-item" style="background-color:#1E90FF">Dark Matter</div>
+                <div class="flex-item" style="background-color:#FF69B4">Supernova</div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact the Artist</h2>
+            <p>If you want to discuss the project or collaborate, feel free to leave a message.</p>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Sanzida Sultana | <a href="#header">Back to Top</a></p>
+    </footer>
+
+    <script>
+        // Interactivity for hidden text reveal
+        document.querySelectorAll('.flex-item').forEach(item => {
+            item.addEventListener('mouseover', function() {
+                this.textContent = 'Unveiled Cosmos';
+            });
+            item.addEventListener('mouseout', function() {
+                this.textContent = 'Supernova';
+            });
+        });
+    </script>
+</body>
+</html>
+
+

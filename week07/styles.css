@@ -1,0 +1,91 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d1b2a; /* Deep space */
+    color: #e0e1dd; /* Pale, glowing text */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Lora', serif;
+    color: #ffffff; /* Bright, glowing white text */
+}
+
+header {
+    background-color: #162447; /* Dark indigo for a cosmic feel */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); /* Space-like shadow */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #1E90FF; /* Neon blue on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.flex-item {
+    width: 30%;
+    height: 200px;
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora', serif;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3); /* Glowing shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7); /* Cosmic glow effect */
+}
+
+.flex-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.6); /* Brighter glow on hover */
+}
+
+form {
+    margin-top: 20px;
+    color: #e0e1dd;
+}
+
+footer {
+    background-color: #162447;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
