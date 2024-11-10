@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light/Dark Theme Toggle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Welcome to the Light/Dark Theme Page</h1>
+    <p>Click the buttons below to switch between light and dark themes. Try it out and see how the mood changes!</p>
+
+    <div class="button-container">
+        <button class="on-btn" onclick="activateLightMode()">Light Mode</button>
+        <button class="off-btn" onclick="activateDarkMode()">Dark Mode</button>
+    </div>
+
+    <img id="myImage" src="images/pic_bulboff.gif" alt="Theme Image">
+
+    <script>
+        function activateLightMode() {
+            document.body.style.backgroundColor = "#f0f0f0";
+            document.body.style.color = "#333";
+            document.getElementById('myImage').src = 'images/pic_bulbon.gif'; // Light mode image
+        }
+
+        function activateDarkMode() {
+            document.body.style.backgroundColor = "#333";
+            document.body.style.color = "#f0f0f0";
+            document.getElementById('myImage').src = 'images/pic_bulboff.gif'; // Dark mode image
+        }
+    </script>
+
+</body>
+</html>
