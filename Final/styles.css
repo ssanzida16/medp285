@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif; /* Cute, rounded, and modern font */
+    background-color: #f9f9f9; /* Soft light background */
+    color: #333; /* Dark text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Lobster', cursive; /* Playful and cursive font for titles */
+    color: #ff66b2; /* Light pink color for headings */
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Studio Container */
+#studio-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Sidebar */
+#sidebar {
+    width: 280px;
+    background-color: #fff0f6; /* Soft pink background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tool {
+    margin-bottom: 20px;
+}
+
+.tool label {
+    font-size: 16px;
+    color: #ff66b2;
+}
+
+input[type="range"], input[type="color"], select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ff66b2; /* Light pink border */
+    border-radius: 10px;
+    background-color: #fce4ec; /* Very soft pink for input fields */
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #ff66b2; /* Pink button */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff3385; /* Slightly darker pink on hover */
+}
+
+/* Canvas */
+#canvas {
+    flex-grow: 1;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/* Soundscape Select */
+#soundscape {
+    background-color: #fce4ec;
+    border: 2px solid #ff66b2;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Brush Size Range */
+#brush-size {
+    background-color: #ffebf2; /* Soft pink background for range slider */
+    border-radius: 10px;
+    height: 8px;
+}
+
+#brush-size::-webkit-slider-thumb {
+    background-color: #ff66b2;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    border: 2px solid #ffffff;
+}
+
+#brush-size::-moz-range-thumb {
+    background-color: #ff66b2;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    border: 2px solid #ffffff;
+}
+
+/* Eraser Checkbox */
+#eraser {
+    margin-top: 10px;
+}
+
+/* Undo and Redo Buttons */
+button#undo, button#redo {
+    background-color: #ffccff; /* Light lavender for undo/redo */
+    margin-top: 10px;
+}
+
+button#undo:hover, button#redo:hover {
+    background-color: #e699cc; /* Slightly darker lavender on hover */
+}
+
+/* Soundscape Dropdown */
+#soundscape {
+    background-color: #fce4ec;
+    border: 2px solid #ff66b2;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.nav-btn {
+    background-color: #ff66b2;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin: 10px;
+}
+
+.nav-btn:hover {
+    background-color: #ff3385;
+}
+
+/* Footer */
+footer {
+    background-color: #ff66b2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 5px 0

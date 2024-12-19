@@ -1,0 +1,108 @@
+/* Basic Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    overflow-x: hidden; /* Prevents horizontal scroll */
+}
+
+/* Splash Screen */
+#splash-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('images/background-1.webp'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px;
+}
+
+#splash-screen h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#splash-screen p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+/* Main Content */
+#main-content {
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.content-box {
+    margin: 50px 0;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+    transition: transform 0.3s ease;
+}
+
+.content-box h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.content-box p {
+    font-size: 1.1rem;
+}
+
+/* Parallax Effect */
+.content-box[data-speed="1"] {
+    transform: translateY(0);
+}
+
+.content-box[data-speed="2"] {
+    transform: translateY(0);
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.nav-btn {
+    background-color: #ff66b2;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin: 10px;
+}
+
+.nav-btn:hover {
+    background-color: #ff3385;
+}
+
+/* Footer */
+footer {
+    background-color: #ff66b2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 5px 0;
+}

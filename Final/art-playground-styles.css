@@ -1,0 +1,159 @@
+/* Basic Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff66b2;
+    color: white;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Art Pieces Display */
+.art-display {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.art-piece {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.art-piece img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.art-piece:hover img {
+    transform: scale(1.05);
+}
+
+.art-piece:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Art Info */
+.art-info {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Rate Button */
+.rate-btn {
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.rate-btn:hover {
+    background-color: #ff3385;
+}
+
+/* Art Piece Expand Animation */
+.art-piece.expanded {
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+.art-piece.expanded img {
+    transform: scale(1.2);
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav-btn {
+    background-color: #ff66b2;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: #ff3385;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .art-display {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .nav-btn {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #ff66b2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 5px 0

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="studio-container">
+        <!-- Sidebar for tools -->
+        <div id="sidebar">
+            <h2>Tools</h2>
+
+            <div class="tool">
+                <label for="brush-size">Brush Size:</label>
+                <input type="range" id="brush-size" min="5" max="50" value="10">
+            </div>
+
+            <div class="tool">
+                <label for="brush-color">Brush Color:</label>
+                <input type="color" id="brush-color" value="#000000">
+            </div>
+
+            <div class="tool">
+                <label for="brush-type">Brush Type:</label>
+                <select id="brush-type">
+                    <option value="sparkle">Sparkle</option>
+                    <option value="trail">Trail</option>
+                    <option value="drip">Drip</option>
+                </select>
+            </div>
+
+            <div class="tool">
+                <label for="eraser">Eraser:</label>
+                <input type="checkbox" id="eraser">
+            </div>
+
+            <div class="tool">
+                <button id="undo">Undo</button>
+                <button id="redo">Redo</button>
+            </div>
+
+            <div class="tool">
+                <label for="soundscape">Soundscape:</label>
+                <select id="soundscape">
+                    <option value="none">None</option>
+                    <option value="rain">Rain</option>
+                    <option value="ocean">Ocean</option>
+                    <option value="forest">Forest</option>
+                </select>
+            </div>
+
+            <button id="save">Save</button>
+        </div>
+
+        <!-- Drawing Canvas -->
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="nav-buttons">
+        <a href="index.html" class="nav-btn">Back Home</a>
+        <a href="studio.html" class="nav-btn">Go to the Art Playground</a>
+    </div>
+
+     <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 The Creative Playground | All Rights Reserved</p>
+        <p>Designed by Sanzida Sultana</p>
+    </footer>
+
+    <script src="studio.js"></script>
+</body>
+</html>
